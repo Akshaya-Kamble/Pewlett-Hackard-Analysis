@@ -13,7 +13,7 @@ Importing data and exporting data in csv formats.
 We joined the two tables employees and tables using inner join and created a new table named retirement_titles using the primary key emp_no which is common in both tables. Thenwe filter the data on the birth_date column to retrieve the employees who were born between 1952 and 1955.This gives us the filtered data in the range of years into a new table.
 We have this table saved as image 2 in the  reference images folder and the csv file named as retirement_titles.csv in the data folder.
 #### a. Below are the links to image and csv file.
-
+1. [Image 2][1]
 #### b. This is the query we executed to get the data
 ```SELECT e.emp_no,
     e.first_name,
@@ -87,3 +87,6 @@ Refer image 4 in reference images folder
 4.Divide the eligible 'silver tsunami' employees in batches.
 The highest number of employees retiring are in the title 'Senior Engineer' and 'Senior Staff' ,we can further divide these employess in small batches to have a smooth transition of retiring employees and new employees. Doing so can also help balance the mentor and new employee ratio.
 Refer image 4 in reference images folder
+
+
+[1]:https://github.com/Akshaya-Kamble/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Reference%20images/2.PNG
