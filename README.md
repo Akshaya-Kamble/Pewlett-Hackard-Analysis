@@ -96,27 +96,27 @@ We have this data calculated and looking at the image 4 we can plan for retireme
 Each title has a count of employess that will be part of 'silver tsunami'.
 The following query has provide the required result.
 ```
-SELECT COUNT(emp_no) as count ,title
-INTO retiring_titles
-FROM unique_titles
-GROUP BY(title)
-ORDER BY COUNT DESC;
+    SELECT COUNT(emp_no) as count ,title
+    INTO retiring_titles
+    FROM unique_titles
+    GROUP BY(title)
+    ORDER BY COUNT DESC;
 ```
-Refer image 4 in reference images folder
-[Image 4][5]
+    Refer image 4 in reference images folder
+    [Image 4][5]
 
 4. Divide the eligible 'silver tsunami' employees in batches.
 The highest number of employees retiring are in the title 'Senior Engineer' and 'Senior Staff' ,we can further divide these employess in small batches to have a smooth transition of retiring employees and new employees. Doing so can also help balance the mentor and new employee ratio.
 The following query has provide the required result.
 ```
-SELECT COUNT(emp_no) as count ,title
-INTO retiring_titles
-FROM unique_titles
-GROUP BY(title)
-ORDER BY COUNT DESC;
+    SELECT COUNT(emp_no) as count ,title
+    INTO retiring_titles
+    FROM unique_titles
+    GROUP BY(title)
+    ORDER BY COUNT DESC;
 ```
-Refer image 4 in reference images folder
-[Image 4][5]
+    Refer image 4 in reference images folder
+    [Image 4][5]
 
 [1]:https://github.com/Akshaya-Kamble/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Reference%20images/2.PNG
 [2]:https://github.com/Akshaya-Kamble/Pewlett-Hackard-Analysis/blob/main/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retirement_titles.csv
